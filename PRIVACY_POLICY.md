@@ -1,5 +1,5 @@
 ---
- "Renard Distingué – Politique de Confidentialité"
+ Renard Distingué
 ---
 
 # **Politique de Confidentialité**
