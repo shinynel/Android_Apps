@@ -3,7 +3,7 @@
 ---
 
 # **Politique de Confidentialité**
-**Dernière mise à jour : 06 novembre 2025**
+**Dernière mise à jour : 07 décembre 2025**
 
 Bienvenue dans **Renard Distingué**, une application Android développée par **Maxime** (Nelwy's Apps).
 En tant que développeur et utilisateur soucieux de la vie privée, je m'engage à ce que cette application **ne collecte ni ne partage aucune donnée personnelle** sans votre consentement explicite.
@@ -26,11 +26,24 @@ Cette application **ne collecte aucun** :
   - **Usage** : Uniquement pour distinguer les appareils dans la base de données.
   - **Stockage** : Hébergé sur les serveurs **Firebase (Google)**, conformes au RGPD.
 
+- **Jeton de notification (FCM Token)** :
+  - Un identifiant unique généré par Firebase Cloud Messaging.
+  - Anonyme : Non lié à votre identité réelle.
+  - Usage : Envoyer les notifications de nouveaux événements à votre appareil.
+  - Stockage : Hébergé sur les serveurs Firebase (Google), conformes au RGPD.
+  - Révocable : En désactivant les notifications dans les paramètres de l'app.
+
 - **Préférences locales** :
   Les paramètres (ex : activation des notifications) sont stockés **uniquement sur votre appareil** et supprimés lors de la désinstallation.
 
 ### 📊 **Pas de tracking ni d'analytics**
 Aucun outil de suivi (Google Analytics, Crashlytics, etc.) n'est intégré.
+
+### 🔗 **Services tiers**
+L'application contient des liens vers :
+- HelloAsso (dons) : Soumis à leur propre politique de confidentialité
+- Réseaux sociaux (Instagram, FetLife, Telegram, Discord)
+Ces services ne reçoivent aucune donnée de votre part via l'application.
 
 ---
 
