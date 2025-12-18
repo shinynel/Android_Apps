@@ -36,14 +36,48 @@ Cette application **ne collecte aucun** :
 - **Préférences locales** :
   Les paramètres (ex : activation des notifications) sont stockés **uniquement sur votre appareil** et supprimés lors de la désinstallation.
 
-### 📊 **Pas de tracking ni d'analytics**
-Aucun outil de suivi (Google Analytics, Crashlytics, etc.) n'est intégré.
+### 📊 **Analytics et Statistiques d'Usage (Firebase Analytics)**
+
+L'application utilise **Firebase Analytics** pour améliorer l'expérience utilisateur et comprendre comment l'application est utilisée.
+
+**Données collectées (anonymes)** :
+- Navigation dans l'application (onglets visités, temps passé)
+- Interactions avec les fonctionnalités :
+  - Recherches dans les ressources (termes de recherche)
+  - Lectures d'articles (titre, catégorie, durée)
+  - Événements ajoutés au calendrier
+  - Clics sur les liens partenaires
+  - Utilisation de la galerie photo
+  - Interactions avec l'onboarding
+- Informations techniques : modèle d'appareil, version Android, langue
+
+**Ce qui N'EST PAS collecté** :
+- ❌ Aucune donnée personnelle identifiable
+- ❌ Pas de contenu saisi par l'utilisateur (hors termes de recherche)
+- ❌ Pas de données de localisation précise
+
+**Pourquoi ?**
+- Identifier les fonctionnalités les plus/moins utilisées
+- Détecter les bugs et améliorer la stabilité
+- Optimiser l'expérience utilisateur
+
+**Contrôle** :
+- Les données sont **anonymisées** automatiquement par Firebase
+- Conformes au **RGPD** (serveurs Google Europe)
+- Vous pouvez demander la suppression de vos données via : nelwy.dev@proton.me
 
 ### 🔗 **Services tiers**
-L'application contient des liens vers :
-- HelloAsso (dons) : Soumis à leur propre politique de confidentialité
-- Réseaux sociaux (Instagram, FetLife, Telegram, Discord)
-Ces services ne reçoivent aucune donnée de votre part via l'application.
+L'application utilise et contient des liens vers :
+- **Firebase (Google)** : Hébergement de données et analytics
+  - [Politique de confidentialité Firebase](https://firebase.google.com/support/privacy)
+- **HelloAsso** (dons) : Soumis à leur propre politique de confidentialité
+- **Réseaux sociaux** (Instagram, FetLife, Telegram, Discord)
+- **Google Maps** : Affichage de l'itinéraire vers les événements
+
+### 📅 **Ajout d'événements au calendrier**
+- L'application peut ajouter des événements à **votre calendrier local**
+- Aucune donnée n'est envoyée en ligne
+- Stockage uniquement sur votre appareil (via add_2_calendar)
 
 ---
 
@@ -94,6 +128,6 @@ Pour toute question ou signalement de faille de sécurité :
 Cette politique de confidentialité peut être mise à jour de temps à autre. Toute modification sera publiée sur cette page. Nous vous encourageons à consulter régulièrement cette politique pour rester informé de la manière dont nous protégeons vos informations.
 
 ---
-*© 2025 Nelwy's Apps. Tous droits réservés.*
-*Dernière révision : 06/11/2025*
+*© 2026 Nelwy's Apps. Tous droits réservés.*
+*Dernière révision : 18/12/2025*
 Privacy Policy inspirée par https://github.com/WrichikBasu
