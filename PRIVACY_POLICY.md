@@ -6,7 +6,7 @@
 **Dernière mise à jour : 18 décembre 2025**
 
 Bienvenue dans **Renard Distingué**, une application Android développée par **Maxime** (Nelwy's Apps).
-En tant que développeur et utilisateur soucieux de la vie privée, je m'engage à ce que cette application **ne collecte ni ne partage aucune donnée personnelle** sans votre consentement explicite.
+En tant que développeur et utilisateur soucieux de la vie privée, je m'engage à ce que cette application **ne collecte ni ne partage aucune donnée personnelle identifiable** sans votre consentement explicite.
 
 ---
 
@@ -36,6 +36,12 @@ Cette application **ne collecte aucun** :
 - **Préférences locales** :
   Les paramètres (ex : activation des notifications) sont stockés **uniquement sur votre appareil** et supprimés lors de la désinstallation.
 
+### 📅 **Ajout d'événements au calendrier**
+- L'application peut ajouter des événements à **votre calendrier local**
+- Aucune donnée n'est envoyée en ligne
+- Stockage uniquement sur votre appareil (via add_2_calendar)
+
+
 ### 📊 **Analytics et Statistiques d'Usage (Firebase Analytics)**
 
 L'application utilise **Firebase Analytics** pour améliorer l'expérience utilisateur et comprendre comment l'application est utilisée.
@@ -50,6 +56,11 @@ L'application utilise **Firebase Analytics** pour améliorer l'expérience utili
   - Utilisation de la galerie photo
   - Interactions avec l'onboarding
 - Informations techniques : modèle d'appareil, version Android, langue
+
+**Durée de conservation** :
+- Données Analytics : 2 mois (Google Firebase)
+- FCM Tokens : Jusqu'à révocation des notifications
+- Préférences locales : Jusqu'à désinstallation
 
 **Ce qui N'EST PAS collecté** :
 - ❌ Aucune donnée personnelle identifiable
@@ -74,10 +85,14 @@ L'application utilise et contient des liens vers :
 - **Réseaux sociaux** (Instagram, FetLife, Telegram, Discord)
 - **Google Maps** : Affichage de l'itinéraire vers les événements
 
-### 📅 **Ajout d'événements au calendrier**
-- L'application peut ajouter des événements à **votre calendrier local**
-- Aucune donnée n'est envoyée en ligne
-- Stockage uniquement sur votre appareil (via add_2_calendar)
+### 🌍 **Transferts internationaux de données**
+Les données peuvent être transférées vers les **États-Unis** 
+dans le cadre de l'utilisation de Firebase (Google LLC).
+
+**Garanties** :
+- Google adhère au **EU-US Data Privacy Framework** (2023)
+- Clauses contractuelles types de la Commission Européenne
+- Plus d'infos : https://firebase.google.com/support/privacy
 
 ---
 
@@ -111,6 +126,11 @@ En tant qu'utilisateur européen, vous bénéficiez des droits suivants :
 ### 🔒 **Sécurité des données**
 - **Firebase** : Les UID anonymes sont protégés par les [mesures de sécurité de Google](https://firebase.google.com/support/privacy).
 - **Chiffrement** : Les communications avec Firebase utilisent **HTTPS (TLS)**.
+
+**Base légale (Art. 6 RGPD)** :
+- En téléchargeant et utilisant l'application, vous **acceptez** 
+  la collecte de données anonymes via Firebase Analytics.
+- Si vous refusez, veuillez désinstaller l'application.
 
 ---
 
