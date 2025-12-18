@@ -3,7 +3,7 @@
 ---
 
 # **Politique de Confidentialité**
-**Dernière mise à jour : 07 décembre 2025**
+**Dernière mise à jour : 18 décembre 2025**
 
 Bienvenue dans **Renard Distingué**, une application Android développée par **Maxime** (Nelwy's Apps).
 En tant que développeur et utilisateur soucieux de la vie privée, je m'engage à ce que cette application **ne collecte ni ne partage aucune donnée personnelle** sans votre consentement explicite.
