@@ -3,7 +3,7 @@
 ---
 
 # **Politique de Confidentialité**
-**Dernière mise à jour : 18 décembre 2025**
+**Dernière mise à jour : 2 janvier 2026**
 
 Bienvenue dans **Renard Distingué**, une application Android développée par **Maxime** (Nelwy's Apps).
 En tant que développeur et utilisateur soucieux de la vie privée, je m'engage à ce que cette application **ne collecte ni ne partage aucune donnée personnelle identifiable** sans votre consentement explicite.
@@ -41,6 +41,11 @@ Cette application **ne collecte aucun** :
 - Aucune donnée n'est envoyée en ligne
 - Stockage uniquement sur votre appareil (via add_2_calendar)
 
+### 🖼️ **Sauvegarde d'images dans la galerie**
+- L'application peut sauvegarder des images d'articles dans **votre galerie locale**
+- **Aucune lecture de vos photos** : L'application ne peut pas accéder à vos photos existantes
+- Les images sont créées et sauvegardées localement sur votre appareil
+- Sur Android 10+, aucune permission n'est requise grâce au "scoped storage"
 
 ### 📊 **Analytics et Statistiques d'Usage (Firebase Analytics)**
 
@@ -66,6 +71,7 @@ L'application utilise **Firebase Analytics** pour améliorer l'expérience utili
 - ❌ Aucune donnée personnelle identifiable
 - ❌ Pas de contenu saisi par l'utilisateur (hors termes de recherche)
 - ❌ Pas de données de localisation précise
+- ❌ Pas d'accès à vos photos ou médias existants
 
 **Pourquoi ?**
 - Identifier les fonctionnalités les plus/moins utilisées
@@ -105,10 +111,13 @@ Les permissions demandées sont **minimales** et nécessaires au fonctionnement 
 | `INTERNET`                          | Télécharger les nouveaux événements et leurs bannières depuis Firebase.                       | Automatique        |
 | `POST_NOTIFICATIONS`                | Vous alerter lors de nouveaux événements (doit être **activée manuellement**).                | Manuel (révocable) |
 | `VIBRATE`                           | Faire vibrer l'appareil pour les notifications.                                               | Automatique        |
+| `WRITE_EXTERNAL_STORAGE`            | Sauvegarder les images d'articles dans votre galerie (**Android 9 et moins uniquement**).     | Automatique        |
 
 > ⚠️ **Transparence** :
 > - Aucune permission n'est utilisée pour collecter des données.
 > - Les permissions "Automatiques" sont gérées par Android et **ne peuvent pas être désactivées**.
+> - Sur Android 10+, la sauvegarde d'images utilise le "scoped storage" et ne nécessite aucune permission.
+> - **L'application ne peut PAS lire vos photos existantes.**
 
 ---
 
@@ -149,5 +158,5 @@ Cette politique de confidentialité peut être mise à jour de temps à autre. T
 
 ---
 *© 2026 Nelwy's Apps. Tous droits réservés.*
-*Dernière révision : 18/12/2025*
+*Dernière révision : 02/01/2026*
 Privacy Policy inspirée par https://github.com/WrichikBasu
